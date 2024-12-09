@@ -5,7 +5,7 @@ import MainLayout from "../Layout/mainLayout";
 import Policy from "../components/Policy";
 import NewArrival from "../components/newarrival";
 import Discount from "../components/discount";
-import HandCrafted from "../components/handcrafted";
+import HandCrafted from "../components/handCrafted";
 import Customize from "../components/customize";
 import Manufacturing from "../components/manufacturing";
 
