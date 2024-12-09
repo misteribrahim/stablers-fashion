@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Rollerscript Smooth';
+    src: url('Rollerscript-Smooth.eot');
+    src: local('Rollerscript Smooth'), local('Rollerscript-Smooth'),
+        url('Rollerscript-Smooth.eot?#iefix') format('embedded-opentype'),
+        url('Rollerscript-Smooth.woff2') format('woff2'),
+        url('Rollerscript-Smooth.woff') format('woff'),
+        url('Rollerscript-Smooth.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rollerscript Rough';
+    src: url('Rollerscript-Rough.eot');
+    src: local('Rollerscript Rough'), local('Rollerscript-Rough'),
+        url('Rollerscript-Rough.eot?#iefix') format('embedded-opentype'),
+        url('Rollerscript-Rough.woff2') format('woff2'),
+        url('Rollerscript-Rough.woff') format('woff'),
+        url('Rollerscript-Rough.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

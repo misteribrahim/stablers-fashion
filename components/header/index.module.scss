@@ -1,0 +1,34 @@
+@import "../../styles/include-media";
+.header {
+    background: #000000;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.3s linear;
+    padding: 20px 0;
+    position: relative;
+
+    .navOpener {
+        cursor: pointer;
+        display: none;
+        float: right;
+        margin: 13px 0 13px 13px;
+        border-radius: 5px 0 5px 0;
+        background: linear-gradient(272.44deg, #1f85b5 -2.57%, #845482 92.5%);
+        padding: 5px;
+        svg {
+            color: #fff;
+        }
+        @include media("<tablet") {
+            display: block;
+        }
+    }
+    .head {
+        margin: 0 auto;
+        svg {
+            font-size: 20px;
+            color: #fff;
+            &:hover {
+                color: #9b9b9b;
+            }
+        }
+    }
+}

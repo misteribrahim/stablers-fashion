@@ -1,0 +1,139 @@
+@import "../../styles/include-media";
+
+.heading {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+    z-index: 999;
+
+    h3 {
+        font-weight: bold;
+        position: relative;
+
+        @include media("<tablet") {
+            font-size: 24px;
+        }
+
+        @include media("<phone") {
+            font-size: 20px;
+        }
+    }
+
+    h2 {
+        color: #000; // Default color
+        font-size: 32px !important;
+        font-weight: 700;
+
+        @include media("<tablet") {
+            font-size: 30px;
+        }
+
+        @include media("<phone") {
+            font-size: 28px;
+        }
+
+        // Add white color when mainText is true
+        &.white {
+            color: #fff;
+        }
+
+        // Existing color classes
+        &.brown {
+            color: #7b3805;
+        }
+
+        &.black {
+            color: #000;
+        }
+    }
+
+    &.bannerText {
+        text-align: left;
+        color: #fff;
+
+        h2 {
+            font-size: 56px !important;
+            font-weight: bold;
+            text-transform: uppercase;
+            max-width: 70%;
+            
+        }
+
+        .subtitle {
+            width: 63%;
+            margin: unset;
+            font-size: 18px;
+            @include media("<phone") {
+                width: 100%;
+                padding: 0 10px;
+            }
+        }
+
+        .mainTitle {
+            color: #4B4B4B;
+            font-size: 20px;
+            &.whiteText {
+                color: #fff; 
+            }
+        }
+    }
+
+    .white {
+        color: #fff;
+    }
+
+    .brown {
+        color: #7b3805;
+    }
+
+    .black {
+        color: #000;
+    }
+
+    .subtitle {
+        width: 54% !important;
+        margin: 0 auto;
+        color: #4B4B4B;
+        @include media("<phone") {
+            width: 100%;
+        }
+        &.textWhite {
+            color: #fff;
+        }
+
+        
+    }
+
+    .subHeading {
+        font-family: 'RollerscriptRough', sans-serif;
+        font-size: 34px;
+        color: #753403;
+        font-weight: 400;
+        padding: 0;
+        margin: 0;
+    }
+
+    &.service {
+        text-align: center;
+        h2 {
+            color: #7b3805;
+            font-size: 36px;
+
+            @include media("<tablet") {
+                font-size: 30px;
+            }
+
+            @include media("<phone") {
+                font-size: 28px;
+            }
+        }
+        .subtitle {
+            color: #707070;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+    .handCrafted{
+        width: 74% !important;
+    }
+}

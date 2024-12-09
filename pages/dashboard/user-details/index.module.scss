@@ -1,0 +1,48 @@
+.account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.edit{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    gap: 5px;
+    justify-content: end;
+    cursor: pointer;
+    svg{
+        width: 20px;
+        height: 20px;
+        vertical-align: top;
+    }
+}
+Form{
+    .form-group{
+        svg {
+            position: absolute;
+            top: 16px;
+            left: 12px;
+            font-size: 16px;
+            color: #AAAAAA;
+          }
+          .eyeIcon {
+            position: absolute;
+            right: 41px;
+            top: 9%;
+            transform: translateY(-50%);
+            cursor: pointer;
+          }
+          .inputIcon:first-of-type {
+            left: 10px;
+          }
+    }
+
+}
+
+
+.eyeIcon{
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}

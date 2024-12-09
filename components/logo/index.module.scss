@@ -1,0 +1,16 @@
+@import "../../styles/include-media";
+.logo{
+    position: absolute;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+    left: 47%;
+    top: 1px;
+
+    img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+  }

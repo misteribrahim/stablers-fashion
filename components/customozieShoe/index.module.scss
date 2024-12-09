@@ -1,0 +1,107 @@
+.productDetails {
+    .price {
+      font-size: 30px;
+      color: #753403;
+    }
+  
+    .colorsSection,
+    .sizesSection {
+      margin-bottom: 20px;
+  
+      p {
+        margin-right: 10px;
+        color: #333;
+      }
+  
+      .colorOption {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-right: 10px;
+        height: 100px;
+        object-fit: cover;
+      }
+      
+      .guide {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+  
+      .sizeBtn {
+        margin: 5px;
+        border: 1px solid #ddd;
+        color: #212529bf;
+        transition: background-color 0.3s ease, color 0.3s ease; // Smooth transition
+  
+        &:hover {
+          background-color: #8a4b1e; // Hover background color
+          color: #fff; // Text color on hover
+        }
+  
+        &.selected { // Styles for the selected button
+          background-color: #8a4b1e; // Your desired selected color
+          color: #fff; // Change text color for selected button
+          border: 1px solid #8a4b1e; // Adjust border if needed
+        }
+  
+        &.unavailable {
+          position: relative;
+          pointer-events: none; // Disable interactions
+          color: #7d7d7d; // Grey out the text color
+          background-color: #e9ecef; // Optional: Grey background
+  
+          &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 106%;
+            height: 1px;
+            background-color: #7d7d7d;
+            transform: rotate(-27deg);
+            transform-origin: center;
+          }
+        }
+      }
+  
+      img {
+        cursor: pointer;
+      }
+  
+      .colorOption {
+        border: none; 
+        cursor: pointer; 
+        transition: border 0.3s ease;
+  
+        &.activeColor {
+          border: 1px solid #252525; 
+        }
+      }
+    }
+  
+    .quantityControl {
+      display: flex;
+      align-items: center;
+  
+      button {
+        border-color: #dee2e6;
+      }
+  
+      .quantityInput {
+        width: 50px;
+        text-align: center;
+        margin: 0 5px;
+      }
+    }
+  
+    .socialIcons {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  
+      p {
+        padding-right: 10px;
+        margin: 0;
+      }
+    }
+  }

@@ -1,0 +1,33 @@
+.faqItem{
+    border: 1px solid #E4E4E4;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    img{
+        margin: 0 auto;
+    }
+    &:hover{
+        background-color: #F7F3F0 !important;
+        border:1px solid transparent;
+      
+        img{
+            transform: rotateY(180deg);
+        }
+    }
+    p{
+        padding: 0;
+        margin: 0;
+    }
+}
+.goBack{
+   text-decoration: underline; 
+   cursor: pointer;
+}

@@ -1,0 +1,128 @@
+@import "../../styles/include-media";
+
+.arrivals {
+    li {
+      width: 20%; 
+      display: inline-block !important;
+      vertical-align: top;
+      padding: 15px;
+      letter-spacing: 0;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      
+      @include media("<widescreen") {
+        width: 33.33%; 
+      }
+      @include media("<tablet-x") {
+        width: 50%; 
+      }
+      @include media("<xs-phone") {
+        width: 100%; 
+      }
+      &.list{
+        width: 25%;
+      }
+      .cross{
+        position: absolute;
+        top: 25px;
+        right: 29px;
+        cursor: pointer;
+        img{
+          width: 20px;
+        }
+      }
+    }
+    
+    .arrivalsContent {
+      border: 1px solid #e4e4e4;
+      border-radius: 8px;
+      
+      .img-box {
+        transition: all 0.5s linear;
+  
+        img {
+          width: 100%;
+          height: auto;
+          transition: all 0.5s linear; 
+        }
+      }
+  
+      .content {
+        padding: 20px;
+        
+        .title {
+          display: flex;
+          justify-content: space-between;
+          
+          span {
+            color: #252525;
+            font-size: 19px;
+          }
+  
+          svg {
+            width: 20px;
+            height: 20px;
+            color: #753403 ;
+            cursor: pointer;
+          }
+          
+        }
+        
+        .brand {
+          color: #757575;
+          font-size: 16px;
+          display: flex;
+          justify-content: left;
+        }
+  
+        .colorOptions {
+          margin-top: 10px;
+          row-gap: 2px;
+  
+          .colorCircle {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid #ddd;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+            margin: 2px;
+  
+            &.active {
+              border: 2px solid #fff; 
+              transform: scale(1.2) !important; 
+              box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); 
+            }
+          }
+        }
+  
+        .shoePrice {
+          font-weight: bold;
+          margin-top: 10px;
+          color: #000;
+          font-size: 20px;
+        }
+  
+        .shoeActions {
+          margin-top: 15px;
+  
+          .icon {
+            margin: 0 10px;
+            cursor: pointer;
+            transition: color 0.2s ease-in-out;
+  
+            &:hover {
+              color: #ff6347;
+            }
+          }
+        }
+      }
+    }
+    
+  }
+ 

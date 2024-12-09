@@ -1,0 +1,69 @@
+.buttonGroup {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .customButton {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #f5f1eb42;
+    color: #8a4b1e;
+    border: none;
+    border-radius: 8px;
+    padding: 50px 30px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    width: 200px; 
+    height: 180px; 
+    margin: 0 auto;
+    text-align: center;
+
+    .icon {
+      font-size: 18px;
+      color: #8a4b1e;
+      position: relative;
+      z-index: 2;
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+
+  .uploadInput {
+    display: none;
+  }
+
+  .imgBox {
+    background-size: cover; 
+    background-position: center;
+    width: 100%; 
+    height: 100%; 
+
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .removeIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+    z-index: 3;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }

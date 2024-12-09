@@ -1,0 +1,55 @@
+.account-management {
+  .nav-tabs {
+    border: none !important; // Remove border
+    background: #F6F6F6;
+    padding: 30px 0;
+    margin-bottom: 40px !important;
+    
+    .nav-item {
+      span {
+        color: #757575; // Default text color
+      }
+    }
+
+    .nav-link {
+      border: none !important; // Remove border
+      outline: none; // Remove focus outline
+      padding: 0; // Optional: Adjust padding if needed
+      
+      &:hover {
+        border: none !important; // Remove hover border
+        background-color: transparent; // Prevent background change on hover
+        color: black !important; // Change text color on hover
+        
+        span {
+          color: #000; // Change title text color on hover
+        }
+
+        img {
+          filter: brightness(0) saturate(100%) invert(0%) sepia(2%) saturate(8%) 
+                  hue-rotate(346deg) brightness(93%) contrast(102%);
+          // Add hover effect for image
+        }
+      }
+
+      &.active {
+        border: none !important; // Remove border for active tab
+        background-color: transparent; // Remove background color for active tab
+        font-weight: bold; // Optional: Add some style to active tab
+
+        span {
+          color: #000; // Change title text color when active
+        }
+
+        img {
+          filter: brightness(0) saturate(100%) invert(0%) sepia(2%) saturate(8%) 
+                  hue-rotate(346deg) brightness(93%) contrast(102%);
+          // Change image color for active tab
+        }
+      }
+    }
+    h5{
+      color: #000;
+    }
+  }
+}

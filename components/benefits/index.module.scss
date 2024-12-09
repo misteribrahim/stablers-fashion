@@ -1,0 +1,41 @@
+.benefits {
+    padding: 20px 0;
+    background-color: #F7F3F0; 
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between; 
+    gap: 50px; 
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .icon {
+    color: #a16e45; 
+    font-size: 36px; 
+    margin-bottom: 10px; 
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  .description {
+    margin: 0;
+    font-size: 16px;
+    color: #666; 
+  }
+  

@@ -1,0 +1,20 @@
+@import "../../styles/include-media";
+.topHeader{
+    background-color: #F8F9FB;
+    .headContant{
+        padding: 10px;
+        border-bottom: 1px solid #e8e8e105;
+        text-align: center;
+        border-top: 1px solid #e8e8e105;
+        font-size: 12px;
+        color: #000; 
+        @include media("<tablet"){
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        a{
+            color: #000;
+            text-decoration: none;
+        }  
+    }
+}

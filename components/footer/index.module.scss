@@ -1,0 +1,89 @@
+@import "../../styles/include-media";
+
+.footer {
+    background: #373535;
+    color: #fff;
+    padding: 50px 0 20px 0;
+    
+    @include media("<xs-phone") {
+        padding-top: 0;
+    }
+h5{
+    color: #838382;
+    @include media("<desktop") {
+       font-size: 14px;
+    }
+}
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 10px 0 0;
+        
+        @include media("<phone") {
+            margin-top: 10px;
+        }
+
+        li {
+            cursor: pointer;
+            display: flex;
+           
+
+            svg {
+                margin-right: 10px;
+                color: #fff;
+                transition: color 0.3s ease; 
+            }
+
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                transition: color 0.3s ease; 
+                font-size: 14px ;
+                
+                &:hover {
+                    color: #753403;
+                }
+                
+            }
+
+            &:hover {
+                color: #838382;
+                a {
+                    color: #838382;
+                }
+                svg {
+                    color: #838382; 
+                }
+            }
+        }
+    }
+
+    .socialsLink {
+        display: flex;
+        justify-content: center;
+
+        svg {
+            font-size: 42px;
+            padding: 0 10px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+            color: #fff;
+
+            &:hover {
+                color: #838382;
+            }
+
+            @include media("<xs-phone") {
+                justify-content: center;
+                display: flex;
+            }
+        }
+    }
+
+    small {
+        @include media("<xs-phone") {
+            text-align: center;
+        }
+    }
+}

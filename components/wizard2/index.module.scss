@@ -1,0 +1,40 @@
+.checkOut {
+    .dropDown {
+      button {
+        border: none;
+        color: rgb(0, 0, 0);
+  
+        &:hover {
+          background: transparent;
+          border: none;
+          color: rgb(0, 0, 0);
+        }
+  
+        &::after {
+          display: none;
+        }
+      }
+      
+  }
+  h4{
+    color: black;
+  }
+}
+  
+.heading{
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  color: black;
+}
+.contentBox{
+    border-radius: 4px;
+    padding: 14px;
+  &:hover{
+    background: #F6F6F6;
+  }
+}
+.credit{
+border: 1px solid #EDEDED;
+border-radius: 4px;
+}

@@ -1,0 +1,150 @@
+Form {
+  width: 100%;
+
+  .form-group {
+    margin-bottom: 12px;
+    position: relative;
+
+    .form-control {
+      width: 100%;
+      border-radius: 8px;
+      padding: 12px 22px;
+      font-family: "Poppins", sans-serif;
+      color: #6d6771;
+      transition: all 0.3s ease;
+      background-color: transparent;
+      border: 1px solid #E4E4E4;
+      padding-left: 35px;
+
+      &::placeholder {
+        color: #838382;
+        font-size: 12px;
+      }
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #E4E4E4;
+      }
+
+      &.text-input {
+        padding-left: unset;
+        padding: 12px;
+      }
+    }
+
+
+    .auth-form {
+      .inputIcon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+      }
+
+    }
+
+    .invalid-feedback {
+      text-align: left;
+    }
+
+    &.cart {
+      .form-control {
+        border: none;
+        border-bottom: 1px solid #E4E4E4;
+        padding-left: 10px;
+        color: #757575;
+        font-size: 16px;
+        font-weight: 400;
+        &::placeholder {
+          color: #838382;
+          font-size: 16px;
+        }
+      }
+    }
+
+  }
+
+  &.newsletter {
+    .form-control {
+      &::placeholder {
+        color: #845482;
+        font-size: 12px;
+      }
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: #838382;
+      }
+    }
+  }
+
+  &.auth-form {
+    padding: 0 160px;
+    background-color: #fff;
+  }
+
+
+
+
+  // checkbox
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+
+    input[type="checkbox"] {
+      margin-right: 0.5rem;
+
+      cursor: pointer;
+    }
+
+    .form-check-input {
+      border-color: #838382;
+      width: 16px;
+      height: 16px;
+
+      &.is-valid:checked {
+        background-color: #753403;
+        border-color: #753403;
+
+      }
+
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    label {
+      font-size: 14px;
+      color: #838382 !important;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+
+    .valid-feedback {
+      font-size: 0.875rem;
+      color: #838382;
+    }
+
+    .color-circle {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      margin-right: 8px;
+      margin-left: 10px;
+    }
+  }
+
+  &.contactform {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    background: #F6F6F6;
+
+    .form-control {
+      background-color: #fff;
+    }
+  }
+}

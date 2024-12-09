@@ -1,0 +1,39 @@
+.handCrafted {
+  // background-image: url(/public/images/shadow.png);
+  background-color: #f7f3f0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 10px;
+
+  .slider {
+    position: relative;
+    .imgBox {
+      position: relative;
+      z-index: 1;
+      img {
+        position: absolute;
+        left: 70%;
+        transform: translate(-72%, -44%);
+        aspect-ratio: 3 / 2;
+        -o-object-fit: contain;
+        object-fit: contain;
+        height: 449px;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: 0;
+        bottom: 0;
+        background-color: #eee7e1;
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+        z-index: -1;
+        transform: translate(-57%, -37%);
+      }
+    }
+  }
+}

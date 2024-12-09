@@ -1,0 +1,61 @@
+@import "./include-media";
+/* fonts */
+@font-face {
+  font-family: e-UkraineBold;
+  src: url(../fonts/e-Ukraine-Bold.otf);
+}
+
+@font-face {
+  font-family: e-UkraineLight;
+  src: url(../fonts/e-Ukraine-Light.otf);
+}
+
+@font-face {
+  font-family: e-UkraineMedium;
+  src: url(../fonts/e-Ukraine-Medium.otf);
+}
+
+@font-face {
+  font-family: e-UkraineRegular;
+  src: url(../fonts/e-Ukraine-Regular.otf);
+}
+
+@font-face {
+  font-family: e-Ukraine;
+  src: url(../fonts/e-Ukraine-Thin.otf);
+}
+
+@font-face {
+  font-family: e-UkraineUltraLight;
+  src: url(../fonts/e-Ukraine-UltraLight.otf);
+}
+
+
+@font-face {
+  font-family: 'RollerscriptRough';
+  src: url('../fonts/Rollerscript-Rough.eot');
+  src: url('../fonts/Rollerscript-Rough.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/Rollerscript-Rough.woff2') format('woff2'), 
+       url('../fonts/Rollerscript-Rough.woff') format('woff'), 
+       url('../fonts/Rollerscript-Rough.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #7b3805;
+}
+
+
+
+h4 {
+  @include media("<tablet") {
+    font-size: 24px;
+  }
+  @include media("<phone") {
+    font-size: 22px;
+  }
+}

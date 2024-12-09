@@ -1,0 +1,146 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 07.03.2018 17:48:05
+
+newmtl Material__16drt
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Furnishings.Fabrics.Denim.Blues.jpg
+	map_Kd Furnishings.Fabrics.Denim.Blues.jpg
+	map_bump Furnishings.Fabrics nrm.jpg
+	bump Furnishings.Fabrics nrm.jpg
+
+newmtl Material__4vbngf
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka cuoie bruno2ega2cfg.jpg
+	map_Kd cuoie bruno2ega2cfg.jpg
+	map_bump cuoie bruncccco2a nrm.jpg
+	bump cuoie bruncccco2a nrm.jpg
+
+newmtl Material__6dfgre
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka church inside p1.jpg
+	map_Kd church inside p1.jpg
+	map_bump church inside p1 nrm.jpg
+	bump church inside p1 nrm.jpg
+
+newmtl Material__12rtdf
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka front.jpg
+	map_Kd front.jpg
+	map_bump lth_67k5_test_nrm.jpg
+	bump lth_67k5_test_nrm.jpg
+
+newmtl Material__14fdr
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka 12h.440__schwarz_rope.png
+	map_Kd 12h.440__schwarz_rope.png
+	map_bump 12h.440__schwarz_rope nrm.jpg
+	bump 12h.440__schwarz_rope nrm.jpg
+
+newmtl Material__2vbgfh
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka shoes inside lth.jpg
+	map_Kd shoes inside lth.jpg
+	map_bump shoes inside lth nrm.jpg
+	bump shoes inside lth nrm.jpg
+
+newmtl Material__18dfgre
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Furnishings.Fabrics.Denim.Blues.jpg
+	map_Kd Furnishings.Fabrics.Denim.Blues.jpg
+	map_bump Furnishings.Fabrics nrm.jpg
+	bump Furnishings.Fabrics nrm.jpg
+
+newmtl Material__8cvbdfg
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka church outside1a2.jpg
+	map_Kd church outside1a2.jpg
+	map_bump church outside1a nrm.jpg
+	bump church outside1a nrm.jpg
+
+newmtl Material__10dftre
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka front.jpg
+	map_Kd front.jpg
+	map_bump lth_67k5_test_nrm.jpg
+	bump lth_67k5_test_nrm.jpg
