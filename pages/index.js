@@ -10,7 +10,6 @@ import Customize from "../components/customize";
 import Manufacturing from "../components/manufacturing";
 
 
-
 export default function Home() {
   const shoesData = [
     {
